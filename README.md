@@ -14,3 +14,23 @@ Karena *script* ini adalah *wrapper* untuk `mpg123`, pastikan komputer/server ka
 ```bash
 sudo apt update
 sudo apt install mpg123
+```
+
+## Cara Pakai:
+**Clone repositori ini dan masuk ke foldernya, lalu berikan izin eksekusi pada script:**
+```bash
+chmod +x termumusic.sh
+```
+**Mode Default (Folder Saat Ini)**
+```bash
+./termumusic.sh
+```
+
+**Spesific Folder**
+```bash
+./termumusic.sh /path/folder/music
+```
+**Catatan:** Ganti `/path/folder/music` dengan lokasi folder musik kamu yang sebenarnya.
+Contoh: `./termmusic.sh ~/Music/Anime_OST/`
+
+
